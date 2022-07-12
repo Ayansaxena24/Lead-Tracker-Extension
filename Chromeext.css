@@ -1,0 +1,336 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 500px;
+}
+
+#input-btn {
+    background-color: #5f9341;
+    color: white;
+    border: 1px solid #5f9341;
+    padding: 10px;
+    /* padding-left: 20px;;
+    padding-right: 20px;;
+    padding-top: 10PX;
+    padding-bottom: 10PX; */
+    margin-top: 5px;
+    font-weight: bold;
+    transition: box-shadow 100ms;
+    border-radius: 10px;
+}
+
+#input-btn:hover {
+    border: 1px solid #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.05),
+                0 0 2px rgba(0, 0, 0, 0.05),
+                0 0 3px rgba(0, 0, 0, 0.05),
+                0 0 4px rgba(0, 0, 0, 0.05),
+                0 0 5px rgba(0, 0, 0, 0.05),
+                0 0 4px rgba(0, 0, 0, 0.05),
+                0 0 5px rgba(0, 0, 0, 0.05);
+    opacity: 0.85;
+    /* text-decoration: underline; */
+    /* border-radius: 10px;
+    border-style: dotted; */
+}
+
+#save-btn {
+    background-color: #5f9341;
+    color: white;
+    border: 1px solid #5f9341;
+    padding: 10px;
+    /* padding-left: 20px;;
+    padding-right: 20px;;
+    padding-top: 10PX;
+    padding-bottom: 10PX; */
+    margin-top: 5px;
+    font-weight: bold;
+    transition: box-shadow 100ms;
+    border-radius: 10px;
+}
+
+#save-btn:hover {
+    border: 1px solid #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.05),
+                0 0 2px rgba(0, 0, 0, 0.05),
+                0 0 3px rgba(0, 0, 0, 0.05),
+                0 0 4px rgba(0, 0, 0, 0.05),
+                0 0 5px rgba(0, 0, 0, 0.05),
+                0 0 4px rgba(0, 0, 0, 0.05),
+                0 0 5px rgba(0, 0, 0, 0.05);
+    opacity: 0.85;
+    /* text-decoration: underline; */
+    border-radius: 10px;
+}
+
+.dropbutton {
+    border-radius: 10px;
+}
+.dropbutton:hover {
+    border-style:dashed;
+}
+
+#del-btn {
+    background-color: white;
+    color: white;
+    border: 1px solid #5f9341;
+    padding: 10px;
+    /* padding-left: 20px;;
+    padding-right: 20px;;
+    padding-top: 10PX;
+    padding-bottom: 10PX; */
+    margin-top: 5px;
+    font-weight: bold;
+    transition: box-shadow 100ms;
+}
+
+#del-btn:hover {
+    border: 1px solid #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.05),
+                0 0 2px rgba(0, 0, 0, 0.05),
+                0 0 3px rgba(0, 0, 0, 0.05),
+                0 0 4px rgba(0, 0, 0, 0.05),
+                0 0 5px rgba(0, 0, 0, 0.05),
+                0 0 4px rgba(0, 0, 0, 0.05),
+                0 0 5px rgba(0, 0, 0, 0.05),
+}
+
+input {
+    width: 100%;
+    padding: 10px 20px;
+    /* padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 10px;
+    padding-right: 10px; */
+    border: 1px solid cyan;
+    box-sizing: border-box;
+    background-color: rgb(218, 235, 254);
+    transition: box-shadow 100ms;
+}
+
+input:hover {
+        /* box-shadow: 0 0 2px rgba(0, 0, 0, 0.05),
+                    0 0 2px rgba(0, 0, 0, 0.05),
+                    0 0 3px rgba(0, 0, 0, 0.05),
+                    0 0 4px rgba(0, 0, 0, 0.05),
+                    0 0 5px rgba(0, 0, 0, 0.05),
+                    0 0 4px rgba(0, 0, 0, 0.05),
+                    0 0 5px rgba(0, 0, 0, 0.05); */
+        border: 1px solid #fff;
+}
+
+ul {
+    margin-top: 30px;
+    list-style: none;
+    padding-left: 0;
+    font-size: 14px;
+}
+
+li {
+    margin-top: 10px;
+}
+
+li a {
+    color: #5f9341;
+}
+
+/* li a::before {
+    content: "• ";
+    color: #5f9341;
+  } */
+  
+li p {
+    margin-top: 1px;
+    color:#25aae1;
+}
+
+/* li p::before {
+    content: "• ";
+    color: #25aae1;
+  } */
+
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover {
+    width: 80px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    height: 35px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    margin-left: 10px;
+    margin-top: 15px;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dropbutton {
+    background-color: white;
+    color: #5f9341;
+    border: 1px solid #5f9341;
+    padding: 10px;
+    /* padding-left: 20px;;
+    padding-right: 20px;;
+    padding-top: 10PX;
+    padding-bottom: 10PX; */
+    margin-top: 5px;
+    font-weight: bold;
+    transition: border-color 100ms;
+}
+/* The container <div> - needed to position the dropup content */
+.dropup {
+    position: relative;
+    display: inline-table;
+}
+/* Dropup content (Hidden by Default) */
+.dropupcontent {
+    display:none;
+    position: relative;
+    bottom: 0px;
+    background-color: transparent;
+    min-width: 100px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+    overflow:auto;
+}
+/* Links inside the dropup */
+.dropupcontent a {
+    color:#111;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/* Change color of dropup links on hover */
+.dropupcontent a:hover {
+    background-color: white;
+}
+/* Show the dropup menu on hover */
+.dropup:hover .dropupcontent {
+    /* top: 65px;
+    right: 90px; */
+    display:list-item;
+    right: 18px;
+}
+/* Change the background color of the dropup button when the dropup content is shown */
+.dropup:hover .dropbutton {
+    background-color: white;
+}
+
+.btn-color1.color-2 {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    /* box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75); */
+}
+
+.btn-color1:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+#del-btn {
+    width: 100px;
+    font-size: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 10px;
+    height: 35px;
+    text-align:center;
+    border: none;
+    background-size: 500% 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+
+
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.listStyle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.anchor {
+    width: 60%;
+
+}
+
+/* .copyBtn {
+    margin-top: 2px;
+    margin-right: 10px;
+    padding-top:1px;
+    height: fit-content;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: #8dddff;
+    border-color: #8dddff;
+
+} */
+
+.copyBtn {
+
+    margin-top: 2px;
+    margin-right: 1px;
+    border: none;
+    background: rgb(0, 0, 0);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    height:25px;
+  }
+  
+  .copyBtn:hover {
+    border-color: brown;
+    color: #404040;
+    font-weight: 700;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+  }
