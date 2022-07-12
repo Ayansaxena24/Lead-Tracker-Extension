@@ -4,7 +4,7 @@
     "name": "Leads Tracker",
     "description": "Make notes while surfing and save important URLs.",
     "action": {
-        "default_popup": "Chromeext.html",
+        "default_popup": "index.html",
         "default_icon": "pngtree.png"
 },
     "permissions": [
